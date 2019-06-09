@@ -1,4 +1,6 @@
-from graph import Digraph, Graph
+# This runs from simple_graph
+
+from data_structures.simple_graph.graph import Digraph, Graph
 
 CITIES = ["Seattle", "San Francisco", "Los Angeles", "Riverside", "Phoenix", "Chicago", "Boston", "New York",
           "Atlanta", "Miami", "Dallas", "Houston", "Detroit", "Philadelphia", "Washington"]

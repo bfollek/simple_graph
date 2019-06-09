@@ -1,6 +1,6 @@
 from os import path
 
-from edge import Edge
+from data_structures.simple_graph.edge import Edge
 
 
 class Graph():
