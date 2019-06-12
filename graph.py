@@ -22,6 +22,10 @@ class Graph():
     def edge_count(self):
         return sum(map(len, self._edges))  # Number of edges
 
+    @property
+    def vertices(self):
+        return self._vertices
+
     # Add a vertex to the graph and return its index
     def add_vertex(self, vertex):
         self._vertices.append(vertex)
