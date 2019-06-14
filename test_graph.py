@@ -60,6 +60,12 @@ def test_graph():
         'Atlanta', 'Detroit', 'Miami', 'Philadelphia']
 
 
+def test_empty_graph():
+    """Just to make sure the __init__ works when `vertices` isn't passed."""
+    g = Graph()
+    assert g
+
+
 def test_digraph():
     g = _make_digraph()
     assert sorted(g.neighbors_for_vertex("Seattle")) == [

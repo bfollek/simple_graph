@@ -12,7 +12,7 @@ class Graph():
         every vertex there is a list of edges via which the vertex is connected to other vertices.
         _edges is this list of lists.'
         """
-        self._edges = [[] for _ in vertices]
+        self._edges = [[] for _ in self._vertices]
 
     @property
     def vertex_count(self):
