@@ -5,8 +5,8 @@ from data_structures.simple_graph.edge import Edge
 
 class Graph():
 
-    def __init__(self, vertices=[]):
-        self._vertices = vertices
+    def __init__(self, vertices=None):
+        self._vertices = vertices if vertices else []
         """
         'Our specific representation uses a list of lists of edges, so for
         every vertex there is a list of edges via which the vertex is connected to other vertices.
