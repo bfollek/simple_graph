@@ -1,4 +1,4 @@
-# This runs from simple_graph
+# This runs from the simple_graph folder
 
 from functools import total_ordering
 from data_structures.simple_graph.graph import Digraph, Graph
