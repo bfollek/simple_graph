@@ -1,6 +1,6 @@
 class Edge:
 
-    def __init__(self, u, v):
+    def __init__(self, u: int, v:int):
         self.u = u  # the "from" vertex
         self.v = v  # the "to" vertex
 

@@ -62,7 +62,7 @@ def test_graph():
 
 def test_empty_graph():
     """Just to make sure the __init__ works when `vertices` isn't passed."""
-    g = Graph()
+    g: Graph = Graph()
     assert g
 
 
